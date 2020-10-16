@@ -692,6 +692,7 @@ td {
 
 .page-8 {
   background: #649393;
+  padding: 10% 0 10% 13%;;
 }
 
 .h2-page-8 {
@@ -704,11 +705,32 @@ td {
 }
 
 .gall-pic {
-  width: 50vmin;
+  width: 25vw;
   border: solid 5vmin #ffffff;
   margin: 18px;
   box-sizing: border-box;
 }
+
+@media (max-width: 1205px) and (min-width: 1028px) {
+  .gall-pic {
+  width: 40vw;
+  }
+}
+
+@media (max-width: 1027px) and (min-width: 670px) {
+  .gall-pic {
+  width: 30vw;
+  border: solid 3vmin #ffffff;
+  }
+}
+
+@media (max-width: 669px) {
+  .gall-pic {
+  width: 80vw;
+  border: solid 7vmin #ffffff;
+  }
+}
+
 
 .footer {
   background: #13333e;
