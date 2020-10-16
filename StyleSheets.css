@@ -46,7 +46,7 @@ body {
     background-image: url("cover-pic-mobil.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 24vmin;
     margin-top: 108px;
   }
@@ -910,7 +910,7 @@ a.footer-link {
   color: #f1b9a4;
   position: absolute;
   left: 3vw;
-  bottom: -30px;
+  bottom: -3vmin;
 }
 
 .rectangle-menu {
@@ -937,23 +937,18 @@ a.footer-link {
   list-style-type: none;
 }
 
-a.cover-menu-item {
-  font-family: Alegreya Sans SC;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 125%;
-  color: rgba(100, 147, 147, 0.62);
-  text-decoration: none;
-}
-
 a.menu-item {
   font-family: Alegreya Sans SC;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 4vmin;
   line-height: 125%;
   color: rgba(241, 185, 164, 0.6);
   text-decoration: none;
-  line-height: 1.8;
+  line-height: 2;
 }
+
+a.cover-menu-item {
+  color: rgba(100, 147, 147, 0.62);
+}
+
