@@ -95,7 +95,8 @@ button {
   height: 62px;
   background: #f1b9a4;
   border-radius: 15px;
-  margin-top: 48px;
+  margin-top: 4vmin;
+  margin-bottom: 12vmin;
   font-family: Alegreya Sans SC;
   font-style: normal;
   font-weight: 500;
@@ -470,7 +471,7 @@ h5 {
   width: 70%;
   height: 9px;
   background: #f1b9a4;
-  margin-top: 65px;
+  margin-top: 9vmin;
   font-family: Neucha;
   font-style: normal;
   font-weight: normal;
@@ -506,6 +507,7 @@ h3.h3-page-4 {
   font-size: 16px;
   color: #649393;
   margin-left: 36px;
+  margin-bottom: 8vmin;
 }
 
 @media (max-width: 1491px) {
@@ -583,7 +585,8 @@ h3.h3-page-4 {
 
 .h5-materials {
   color: #13333e;
-  margin-top: 18px;
+  margin-bottom: 0px;
+  margin-block-end: 0px;
 }
 
 .table-text {
@@ -669,7 +672,7 @@ td {
   width: 100%;
   background: url("Background-Page-7.png");
   background-size: cover;
-  padding-bottom: 180px;
+  padding-bottom: 12vmin;
 }
 
 .text-container-page-7 {
@@ -692,8 +695,8 @@ td {
 }
 
 .h3-page-7 {
-  margin-top: 70px;
-  text-align: center;
+  margin-top: 5vmin;
+  text-align: left;
 }
 
 .cards-container-page-7 {
@@ -747,11 +750,6 @@ td {
   top: 38%;
 }
 
-.page-8 {
-  background: #649393;
-  padding: 15vh 2vw 18vh 13vw;
-}
-
 .h2-page-8 {
   color: #ffffff;
 }
@@ -788,6 +786,7 @@ td {
   }
 
   .page-8 {
+    background: #649393;
     padding: 15vh 15vw 18vh 13vw;
   }
 }
