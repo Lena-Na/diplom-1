@@ -423,6 +423,7 @@ h5 {
 
   .card-individual::before,
   .card-group::before {
+    font-size: 4vmin;
   }
 
   .card-live,
@@ -435,6 +436,24 @@ h5 {
 @media (max-width: 744px) {
   .card-page-4 {
     width: 70vw;
+  }
+  .card-individual::before,
+  .card-group::before {
+    font-size: 4vmin;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-individual::before,
+  .card-group::before {
+    font-size: 5vmin;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-individual::before,
+  .card-group::before {
+    font-size: 7vmin;
   }
 }
 
@@ -455,7 +474,7 @@ h5 {
   font-family: Neucha;
   font-style: normal;
   font-weight: normal;
-  font-size: 200%;
+
   line-height: 110%;
   color: #649393;
   display: flex;
