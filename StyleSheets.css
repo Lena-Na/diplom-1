@@ -749,6 +749,10 @@ td {
   top: 38%;
 }
 
+.page-8 {
+  background: #649393;
+}
+
 .h2-page-8 {
   color: #ffffff;
 }
@@ -759,7 +763,7 @@ td {
 }
 
 .gall-pic {
-  width: 24vw;
+  width: 22vw;
   border: solid 5vmin #ffffff;
   margin: 2vmin;
   box-sizing: border-box;
@@ -785,7 +789,6 @@ td {
   }
 
   .page-8 {
-    background: #649393;
     padding: 15vh 15vw 18vh 13vw;
   }
 }
