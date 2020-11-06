@@ -410,9 +410,26 @@ h5 {
 }
 
 .content-card-page-4 {
-  margin: 2vmin 5vmin 5vmin 5vmin;
+  margin: 2vmin 5vmin 7vmin 5vmin;
   top: 6px;
   left: 36px;
+}
+
+.card-individual::before,
+.card-group::before {
+  display: inline-block;
+  width: 70%;
+  height: 9px;
+  background: #f1b9a4;
+  margin-top: 9vmin;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  color: #649393;
+  display: flex;
+  align-items: flex-end;
+  line-height: 0.8;
+  padding-left: 5vmin;
 }
 
 @media (min-width: 745px) {
@@ -448,6 +465,7 @@ h5 {
   .card-individual::before,
   .card-group::before {
     font-size: 5vmin;
+    margin-top: 12vmin;
   }
 }
 
@@ -463,24 +481,6 @@ h5 {
 }
 .card-group::before {
   content: "Групповые";
-}
-
-.card-individual::before,
-.card-group::before {
-  display: inline-block;
-  width: 70%;
-  height: 9px;
-  background: #f1b9a4;
-  margin-top: 9vmin;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: normal;
-
-  line-height: 110%;
-  color: #649393;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
 }
 
 .text-card-page-4 {
@@ -507,7 +507,6 @@ h3.h3-page-4 {
   font-size: 16px;
   color: #649393;
   margin-left: 36px;
-  margin-bottom: 8vmin;
 }
 
 @media (max-width: 1491px) {
